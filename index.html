@@ -8,25 +8,68 @@
         *{
             margin: 0px;
             padding: 0px;
+            box-sizing: border-box;
         }
 
         header{
-            background-color: rgba(153, 210, 248, 0.836);
+            background-color: rgba(153, 210, 248, 0.452);
             height: 15vh;
         }
+
+        nav{
+            width: 100hw;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+        }
+
+        .menu{
+            display: flex;
+        }
+
+        a{
+            text-decoration: none;
+            font-weight: bolder;
+            color: black;
+
+        }
+
 
         main{
             background-color: rgb(223, 243, 250);
             height: 85vh;
         }
+
+        img{
+            height: 200px;
+            border-radius: 50%;
+        }
+
     </style>
 </head>
 <body>
     <header>
-        <div>esse é meu cabeçalho</div>
+        <h1>Tamires Campos</h1>
     </header>
+
+    <div class="menu">
+        <nav>
+            <a href="#">sobre mim</a>
+            <a href="#">Redes Sociais</a>
+            <a href="#">Projetos</a>
+        </nav>
+    </div>
+
     <main>
-        <div>aqui tera meu conteudo</div>
+        <section>
+            <div>
+                <img src="imagens/WhatsApp Image 2024-02-02 at 12.55.54.jpeg" alt="foto de Tamires Campos">
+                <h1>Tamires Campos</h1>
+                <hr>
+                <p>Estudante de Análise a Desenvolvimento de Sistemas</p>
+            </div>
+        </section>
     </main>
 </body>
 </html>
