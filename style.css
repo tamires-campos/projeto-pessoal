@@ -1,4 +1,16 @@
+@font-face {
+    font-family: "Alumni";
+    src: url("fontes/Alumni.ttf"); format :"truetype";
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: "workforce";
+    src: url("fontes/workforce.otf"); format :"truetype";
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -18,6 +30,7 @@ header{
 
 h1{
     margin: 0px;
+    font-family: "Alumni";
 }
 
 .menu-icon{
@@ -48,7 +61,6 @@ h1{
 
 @media (max-width: 768px){
     h1{
-        font-size: larger;
     }
 
     .menu nav{
