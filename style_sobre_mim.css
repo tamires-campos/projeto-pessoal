@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    flex-flow: column;
+}
+
+p{
+    margin: 10px;
+}
+
+.one{
+    height: 100vh;
+    background-color: rgb(202, 181, 156);
+}
+
+.two{
+    height: 100vh;
+    background-color: rgb(104, 184, 184);
+}
+
+img{
+    height: 200px;
+}
