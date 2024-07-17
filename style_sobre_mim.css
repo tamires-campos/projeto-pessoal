@@ -1,27 +1,345 @@
-*{
+@font-face {
+    font-family: "Alumni";
+    src: url("fontes/Alumni.ttf"); format :"truetype";
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "workforce";
+    src: url("fontes/workforce.otf"); format :"truetype";
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* botao */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section{
+    position: relative;
+}
+
+.next-section {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-section:hover {
+    background-color: #0056b3;
+}
+
+/* final do botao */
+
+header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    background-color: #60a0cb;
+    color: white;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.712);
+}
+
+
+h1 {
+    margin: 0;
+    font-family: "Alumni";
+    text-shadow: 1px 1px 5px rgb(52, 64, 68);
+    
+}
+
+img{
+    height: 80px;
     margin: 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body{
-    flex-flow: column;
-}
-
-p{
-    margin: 10px;
 }
 
 .one{
     height: 100vh;
-    background-color: rgb(202, 181, 156);
+    background-color: rgba(202, 181, 156, 0.836);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
 }
 
 .two{
     height: 100vh;
     background-color: rgb(104, 184, 184);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
 }
 
-img{
-    height: 200px;
+.pai{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.filho_welcome{
+    width: 100vw;
+    height: 50vh;
+    background-image: url("undraw/welcome.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filho_female_avatar{
+    width: 100vw;
+    height: 30vh;
+    background-image: url("undraw/female_avatar.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filho_celular{
+    width: 100vw;
+    height: 30vh;
+    background-image: url("undraw/celular.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filho_coracao{
+    width: 100vw;
+    height: 40vh;
+    background-image: url("undraw/coracao.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filho_orgulho_lgbt{
+    width: 100vw;
+    height: 30vh;
+    background-image: url("undraw/orgulho_lgbt.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filho_celebration_casal{
+    width: 100vw;
+    height: 40vh;
+    background-image: url("undraw/celebration_casal.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filho_gaming{
+    width: 100vw;
+    height: 40vh;
+    background-image: url("undraw/gaming.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filho_ideia{
+    width: 100vw;
+    height: 40vh;
+    background-image: url("undraw/ideia.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.filho_education{
+    width: 100vw;
+    height: 40vh;
+    background-image: url("undraw/education.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filho_youtube_tutorial{
+    width: 100vw;
+    height: 40vh;
+    background-image: url("undraw/youtube_tutorial.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filho_linguagens_programacao{
+    width: 100vw;
+    height: 50vh;
+    background-image: url("undraw/linguagens_programacao.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filho_tecnologia{
+    width: 100vw;
+    height: 50vh;
+    background-image: url("undraw/tecnologia.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filho_viagem{
+    width: 100vw;
+    height: 40vh;
+    background-image: url("undraw/viagem.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filho_homeofice{
+    width: 100vw;
+    height: 30vh;
+    background-image: url("undraw/homeofice.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filho_aniversario_casal{
+    width: 100vw;
+    height: 45vh;
+    background-image: url("undraw/aniversario_casal.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filho_houses{
+    width: 100vw;
+    height: 40vh;
+    background-image: url("undraw/houses.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filho_puopanca{
+    width: 100vw;
+    height: 30vh;
+    background-image: url("undraw/puopanca.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filho_planejamento_casal{
+    width: 100vw;
+    height: 25vh;
+    background-image: url("undraw/planejamento_casal.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filho_conhecer_o_mundo{
+    width: 100vw;
+    height: 40vh;
+    background-image: url("undraw/conhecer_o_mundo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filho_hey{
+    width: 100vw;
+    height: 40vh;
+    background-image: url("undraw/hey.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filho_p{
+    background-color: rgba(255, 255, 255, 0.678);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.281);
+}
+
+p{
+    font-family: "open sans";
+    font-size: smaller;
+    font-weight: 500;
+}
+
+
+.casa{
+    height: auto;
+    width: 100vw;
+}
+
+
+
+/* Estilos para pequenas telas */
+@media (max-width: 301px){
+    h1{
+        font-size: 1.5em
+    }
+
+    header img{
+        height: 80px;
+        margin: 0px;
+    }
+}
+
+/* Estilos para dispositivos móveis */
+@media (min-width: 302px) and (max-width: 520px){
+    h1{
+        font-size: 2.5em
+    }
+}
+
+
+/* Estilos para tablets */
+@media (min-width: 520px) and (max-width: 800px){
+    h1{
+        font-size: 3em
+    }
+
+    header img{
+        height: 120px;
+        margin: 0px;
+    }
+
+}
+
+/* Estilos para telas maiores */
+@media (min-width: 801px){
+    h1{
+        font-size: 3.5em
+    }
+
+    header img{
+        height: 150px;
+        margin: 0px;
+    }
 }
