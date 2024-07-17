@@ -171,7 +171,7 @@ img{
 
 .filho_education{
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
     background-image: url("undraw/education.png");
     background-size: contain;
     background-position: center;
@@ -252,7 +252,7 @@ img{
 
 .filho_planejamento_casal{
     width: 100vw;
-    height: 25vh;
+    height: 30vh;
     background-image: url("undraw/planejamento_casal.png");
     background-size: contain;
     background-position: center;
@@ -261,6 +261,7 @@ img{
 
 .filho_conhecer_o_mundo{
     width: 100vw;
+    margin-top: 20px;
     height: 40vh;
     background-image: url("undraw/conhecer_o_mundo.png");
     background-size: contain;
@@ -322,7 +323,7 @@ p{
     }
 
     p{
-        font-size: 30px;
+        font-size: 21px;
     }
 }
 
@@ -334,7 +335,7 @@ p{
     }
 
     p{
-        font-size: 26px;
+        font-size: 16px;
     }
 
     header img{
