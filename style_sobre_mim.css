@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
     font-family: "Alumni";
     src: url("fontes/Alumni.ttf"); format :"truetype";
@@ -67,7 +68,7 @@ header {
     justify-content: start;
     align-items: center;
 
-    background-color: #60a0cb;
+    background-color: #4f77fa;
     color: white;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.712);
 }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
     font-family: "Alumni";
     src: url("fontes/Alumni.ttf"); format :"truetype";
@@ -23,15 +24,20 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
-    background-color: #60a0cb;
+    padding: 0px 15px;
+    background-color: #4f77fa;
     color: white;
+}
+
+.prog{            /*IMAGEM DO HEADER*/
+    height: 90px;
 }
 
 h1 {
     margin: 0;
     font-family: "Alumni";
     text-shadow: 1px 1px 5px rgb(52, 64, 68);
+    font-size: 2.5em
 }
 
 .menu-icon {
@@ -41,7 +47,7 @@ h1 {
 }
 
 .menu {
-    background-color: #478bb8e7;
+    background-color: #4f77fada;
     border-radius: 0 0 10px 10px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.438);
 }
@@ -60,7 +66,7 @@ h1 {
 }
 
 .menu a:hover {
-    background-color: #478bb8e7;
+    background-color: #4f77fa;
     border-radius: 5px;
     transition: 200ms;
     color: rgb(12, 37, 90);
@@ -75,10 +81,10 @@ h1 {
     align-items: center;
 }
 
-img {
+.perfil {
     height: 200px;
     border-radius: 100%;
-    border: 5px solid #478bb8e7; /* Adiciona uma moldura de 5px */
+    border: 5px solid #4f77fa; /* Adiciona uma moldura de 5px */
     padding: 5px; /* Adiciona um espaço entre a imagem e a moldura */
 }
 
