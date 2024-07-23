@@ -31,11 +31,9 @@ html {
     position: relative;
 }
 
-.next-section {
+.next-section, .home-button {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
-    padding: 10px 15px;
+    
     font-size: 1.5rem;
     background-color: #007bff;
     color: white;
@@ -46,7 +44,19 @@ html {
     justify-content: center;
 }
 
-.next-section:hover {
+.next-section {
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 15px;
+}
+
+.home-button {
+    left: 10px;
+    top: 10px;
+    padding: 10px 10px;
+}
+
+.next-section:hover, .home-button:hover {
     background-color: #0056b3;
 }
 
