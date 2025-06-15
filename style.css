@@ -73,19 +73,14 @@ h1 {
     font-size: 16px;
 }
 
-.img {
-    margin: 20px;
+.principal{
     display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
+    flex-flow: row wrap;
 }
 
 .perfil {
     height: 200px;
-    border-radius: 100%;
-    border: 5px solid #4f77fa; /* Adiciona uma moldura de 5px */
-    padding: 5px; /* Adiciona um espaço entre a imagem e a moldura */
+    border-radius: 50%;
 }
 
 h2 {
@@ -103,6 +98,7 @@ p {
 @media (max-width: 520px) {
     h1 {
         text-align: center;
+        font-size: xx-large;
     }
 
     .menu nav {
@@ -136,7 +132,7 @@ p {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        background-color: #478bb8e7;
+        background-color: #698BFB; /* MUDA COR!!!!!! */
         padding: 20px 0;
     }
 
@@ -173,7 +169,7 @@ p {
         right: 0;
         z-index: 1000;
         padding: 20px;
-        background-color: #60a0cb;
+        background-color: #4F77FA;
     }
 
     h1 {
@@ -181,53 +177,47 @@ p {
         margin-left: 15px;
     }
 
-    .img {
-        margin-top: 110px;
+    .perfil{
+        height: 200px;
     }
 
-    img {
-        height: 250px;
-        border: 6px solid #478bb8e7;
-        padding: 6px;
+    h2{
+        text-align: center;
     }
 
     p {
-        font-size: larger;
+        font-size: medium;
     }
 }
+
 
 /* Estilos para telas maiores */
 @media (min-width: 801px) {
     header {
-        padding: 25px;
+        padding: 15px;
+    }
+
+    .prog {
+
     }
 
     h1 {
         font-size: 3em;
-        margin-left: 25px;
+
     }
 
     .menu nav {
         justify-content: space-evenly;
-        padding: 10px 0;
+        padding: 3px 0;
     }
 
     .menu a {
         padding: 10px 20px;
     }
 
-    .img {
-        margin: 40px;
-    }
-
-    img {
-        height: 300px;
-        border: 7px solid #478bb8e7;
-        padding: 7px;
-    }
-
     h2{
         font-size: 30px;
+        text-align: center;
     }
 
     p {
