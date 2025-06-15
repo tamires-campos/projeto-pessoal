@@ -116,6 +116,18 @@ img{
     background-repeat: no-repeat;
 }
 
+.center{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.filho_p{
+    max-width: 800px;
+    font-size: 35px;
+    text-align: justify;
+}
+
 .filho_female_avatar{
     width: 100vw;
     height: 30vh;
@@ -342,11 +354,11 @@ p{
 /* Estilos para tablets */
 @media (min-width: 520px) and (max-width: 800px){
     h1{
-        font-size: 3em
+        font-size: 4em
     }
 
     p{
-        font-size: 16px;
+        font-size: 26px;
     }
 
     header img{
