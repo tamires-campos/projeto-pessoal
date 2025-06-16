@@ -104,8 +104,8 @@ p {
 }
 
 article{
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 h3{
@@ -117,14 +117,14 @@ footer{
 }
 
 /* Estilos para dispositivos móveis */
-@media (max-width: 569px) {
+@media (max-width: 500px) {
     h1 {
         text-align: center;
-        font-size: xx-large;
+        font-size: x-large;
     }
 
-    .perfil{
-        
+    .prog{
+        height: 40px;
     }
 
     .menu nav {
@@ -140,10 +140,44 @@ footer{
     .menu-icon {
         display: block;
     }
+
+    .container{
+        padding: 15px;
+    }
+
+    .foto-tami{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .perfil{
+        height: 120px;
+    }
+
+    article.mobile{
+        padding: 10px;
+    }
+
+    h2{
+        font-size: large;
+    }
+
+    p{
+        font-size: small;
+    }
+
+    footer{
+        font-size: 10px;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+
+    
 }
 
 /* Estilos para tablets */
-@media (min-width: 570px) and (max-width: 800px) {
+@media (min-width: 501px) and (max-width: 800px) {
     body {
         display: flex;
     }
